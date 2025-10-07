@@ -1,0 +1,12 @@
+sort1 uses: bubble sort
+
+How do you know?: Because it is very slow on reversed (5.426s) and random (6.925s) lists, but faster on sorted (0.649s) lists. This matches bubble sort's behavior: worst-case O(n^2) and best-case O(n) when the list is already sorted.
+
+sort2 uses: merge sort
+
+How do you know?: Because it is consistently fast on all input types: reversed (0.678s), random (0.592s), sorted (0.687s).
+
+sort3 uses: selection sort
+
+How do you know?: Because it is consistently slow on all input types: reversed (3.352s), random (3.232s), and sorted (3.077s) lists.
+
